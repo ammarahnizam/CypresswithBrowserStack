@@ -1,0 +1,105 @@
+<!DOCTYPE HTML><html> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1">  <title> BrowserStack Cypress Report </title> <style type="text/css"> .report-container {
+  font-family: HelveticaNeue;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 8px;
+  border: solid 1px #dddddd;
+  background-color: #f7f7f7;
+}
+.build-header {
+  padding: 10px 16px;
+  display: flex;
+  background-color: #f7f7f7;
+  border: solid 1px #ddd;
+}
+.build-meta {
+  flex-grow: 1;
+  flex-direction: column;
+  display: flex;
+}
+.spec-meta {
+  flex-direction: column;
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  margin-right: 40px;
+}
+.build-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+.project-name {
+  font-size: 12px;
+  color: #666;
+}
+.build-link {
+  display: flex;
+  align-items: center;
+}
+.build-link a {
+  cursor: pointer;
+  font-size: 12px;
+  color: #009cfc;
+  text-decoration: none;
+}
+.spec-row {
+  display: flex;
+  border: solid 1px #ddd;
+}
+.spec-row:nth-child(odd) {
+  background-color: #fff;
+}
+.spec-row:nth-child(even) {
+  background-color: #fbfbfb;
+}
+.spec-name {
+  font-size: 16px;
+  color: #333
+}
+.spec-path {
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+  color: #666;
+  padding-top: 8px;
+  font-size: 12px;
+}
+.spec-stats {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding-top: 16px;
+}
+.spec-stats-failed {
+  color: #b22617;
+}
+.spec-stats-passed {
+  color: #68b300;
+}
+.spec-sessions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 12px 0;
+  height: min-content;
+}
+.session-detail {
+  padding: 8px 16px;
+  min-width: 160px;
+  max-width: 160px;
+  height: min-content;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-decoration: underline;
+}
+.session-passed a {
+  color: #68b300;
+}
+.session-failed a {
+  color: #d04536;
+}
+ </style> </head> <body> <div class='report-container'> <div class='build-header'> <div class='build-meta'> <span class='build-name'> Build no. 1: 12 </span> <span class='project-name'> Cross-browser Project </span> </div> <div class='build-link'> <a href='https://automate.browserstack.com/dashboard/v2/builds/67ef5ca8d8828389ba5a0f0dd68da00972a6a471' rel='noreferrer noopener' target='_blank'> View on BrowserStack </a> </div> </div> <div class='build-table'>  <div class='spec-row'> <div class='spec-meta'> <span class='spec-name'> todo.spec.js </span> <span class='spec-path'> cypress/integration/specfiles </span> <span class='spec-stats spec-stats-failed'> 1/5 FAILED </span> </div> <div class='spec-sessions'>  <div class="session-detail session-failed"> <a href="https://automate.browserstack.com/dashboard/v2/builds/67ef5ca8d8828389ba5a0f0dd68da00972a6a471/cypress-tests/tests/47256e46515ef1c24c787426e41f7a6bfc95f3f9Y3lwcmVzcy9pbnRlZ3JhdGlvbi9zcGVjZmlsZXMvdG9kby5zcGVjLmpz" rel="noreferrer noopener" target="_blank"> &#x2717;  firefox 94, OS X Catalina </a> </div> <div class="session-detail session-passed"> <a href="https://automate.browserstack.com/dashboard/v2/builds/67ef5ca8d8828389ba5a0f0dd68da00972a6a471/cypress-tests/tests/a65585f94ade0e4ead796dfa05f6d7e58016f430Y3lwcmVzcy9pbnRlZ3JhdGlvbi9zcGVjZmlsZXMvdG9kby5zcGVjLmpz" rel="noreferrer noopener" target="_blank"> &#10004;  firefox 94, OS X Mojave </a> </div> <div class="session-detail session-passed"> <a href="https://automate.browserstack.com/dashboard/v2/builds/67ef5ca8d8828389ba5a0f0dd68da00972a6a471/cypress-tests/tests/481a4e0aabf8bee5e9931fd30fff72d8c285830fY3lwcmVzcy9pbnRlZ3JhdGlvbi9zcGVjZmlsZXMvdG9kby5zcGVjLmpz" rel="noreferrer noopener" target="_blank"> &#10004;  chrome 95, OS X Mojave </a> </div> <div class="session-detail session-passed"> <a href="https://automate.browserstack.com/dashboard/v2/builds/67ef5ca8d8828389ba5a0f0dd68da00972a6a471/cypress-tests/tests/f8cbb6396e2f7635873e0e065f64de0409f0e563Y3lwcmVzcy9pbnRlZ3JhdGlvbi9zcGVjZmlsZXMvdG9kby5zcGVjLmpz" rel="noreferrer noopener" target="_blank"> &#10004;  chrome 94, OS X Mojave </a> </div> <div class="session-detail session-passed"> <a href="https://automate.browserstack.com/dashboard/v2/builds/67ef5ca8d8828389ba5a0f0dd68da00972a6a471/cypress-tests/tests/5d21979c7738117387070457bef018ed4391455dY3lwcmVzcy9pbnRlZ3JhdGlvbi9zcGVjZmlsZXMvdG9kby5zcGVjLmpz" rel="noreferrer noopener" target="_blank"> &#10004;  edge 95, OS X Mojave </a> </div> </div> </div> </div> </div> </body> </html>

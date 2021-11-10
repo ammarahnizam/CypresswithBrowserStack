@@ -1,0 +1,57 @@
+{
+    "auth": {
+        "username": "ammaranizam1",
+        "access_key": "yzKaSn67hAq9nUzshzUE"
+    },
+    "browsers": [
+
+
+        {
+            "browser": "firefox",
+            "os": "OS X Catalina",
+            "versions": [
+                "latest"
+
+            ]
+        },
+
+        {
+            "browser": "firefox",
+            "os": "OS X Mojave",
+            "versions": [
+                "latest"
+
+            ]
+        },
+
+        {
+            "browser": "chrome",
+            "os": "OS X Mojave",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        },
+
+        {
+            "browser": "edge",
+            "os": "OS X Mojave",
+            "versions": [
+                "latest"
+            ]
+        }
+
+
+
+
+
+
+    ],
+    "run_settings": {
+        "cypress_config_file": "cypress.json",
+        "cypress_version": "8.5.0",
+        "project_name": "Cross-browser Project",
+        "build_name": "Build no. 1"
+
+    }
+}

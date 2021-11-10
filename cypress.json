@@ -1,0 +1,23 @@
+{
+        
+       "baseUrl": "https://www.todobackend.com/client/index.html?https://todo-backend-django.herokuapp.com/#/",
+        "failOnStatusCode": false,
+        "chromeWebSecurity": false,
+        "projectId": "i5zqt8",
+        "defaultCommandTimeout": 90000,
+        "execTimeout": 90000,
+        "integrationFolder": "cypress/integration",
+        "pageLoadTimeout": 100000,
+        "pluginsFile": "cypress/plugins",
+        "requestTimeout": 9000,
+        "responseTimeout": 90000,
+        "screenshotsFolder": "cypress/screenshots",
+        "supportFile": "cypress/support",
+        "taskTimeout": 60000,
+        "testFiles": "**/*.*",
+        "retries": 1
+      
+        }
+      
+
+
